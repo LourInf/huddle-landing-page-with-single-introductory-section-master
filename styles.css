@@ -90,6 +90,7 @@ h1 {
   width: 10px;
   height: 10px;
   margin: 8px;
+  text-decoration: none;
 }
 
 .social-links a:hover {
@@ -104,31 +105,4 @@ h1 {
 }
 .attribution a {
   color: var(--Soft-Magenta);
-}
-
-@media screen and (max-width: 768px) {
-  body {
-    width: 400px;
-    margin: 30px auto;
-  }
-
-  .second-container {
-    flex-direction: column;
-    padding: 20px;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
-  .text-container {
-    text-align: center;
-  }
-
-  .cta-btn {
-    width: 50%;
-  }
-  .social-links {
-    justify-content: center;
-    margin-top: 20px;
-  }
 }
